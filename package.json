@@ -2,8 +2,9 @@
     "name": "webpack-template",
     "version": "1.0.0",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "author": "",
     "license": "ISC",
@@ -12,6 +13,7 @@
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.29.1",
+        "jest": "^29.7.0",
         "webpack": "^5.91.0",
         "webpack-cli": "^5.1.4"
     },
